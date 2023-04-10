@@ -9,6 +9,7 @@ public class Fish {
         this.fishColor = fishColor;
     }
 
+    //getterとsetter
     public String getFishColor() {
         return fishColor;
     }
