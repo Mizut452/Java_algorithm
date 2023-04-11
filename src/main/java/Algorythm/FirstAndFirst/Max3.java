@@ -1,3 +1,5 @@
+package Algorythm.FirstAndFirst;
+
 import java.util.Scanner;
 
 public class Max3 {
