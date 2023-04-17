@@ -14,6 +14,16 @@ public class Student {
         this.studentAge = studentAge;
     }
 
+    //thisによるコンストラクタの簡単化
+    public Student(int studentNumber, int studentAge) {
+        this(studentNumber, "拓郎", studentAge);
+    }
+
+    //thisによるコンストラクタの簡単化2
+    public Student() {
+        this(10, "邪", 20);
+    }
+
     //getter
     public int getStudentNumber() {
         return studentNumber;
