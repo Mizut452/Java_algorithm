@@ -27,7 +27,7 @@ public class StrTest {
                 System.out.println(turnPoint);
             //一発で倒せないかつボスの回復量がプレイヤーのダメージ量以上の時は倒せない
             } else {
-                System.out.println("No");
+                System.out.println("NO");
             }
 
         } else {
