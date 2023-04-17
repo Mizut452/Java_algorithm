@@ -10,5 +10,8 @@ public class Main {
         Student yoshida = new Student(100, "吉田", 13);
         System.out.println(suzuki);
         System.out.println(yoshida.tenYearsLater(yoshida.getStudentName(), yoshida.getStudentAge()));
+
+        Product p = new Product(1);
+        System.out.println(p);
     }
 }
