@@ -26,6 +26,16 @@ public class Monsters_Evolution {
                 int monsterPoint = sc.nextInt();
                 monsterList[i][j] = monsterPoint;
             }
+
+            if(atk > monsterList[i][0] || atk < monsterList[i][3]) {
+                System.out.println("no evolution");
+        } else if(def > monsterList[i][1] || def < monsterList[i][4]) {
+                System.out.println("no evolution");
+            } else if (agi > monsterList[i][2] || agi < monsterList[i][5]) {
+                System.out.println("no evolution");
+            } else {
+                System.out.println(monsterName);
+            }
         }
 
 
