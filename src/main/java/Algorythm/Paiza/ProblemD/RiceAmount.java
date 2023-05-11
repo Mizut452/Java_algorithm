@@ -1,8 +1,8 @@
-package Algorythm.Paiza;
+package Algorythm.Paiza.ProblemD;
 
 import java.util.Scanner;
 
-public class D {
+public class RiceAmount {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int riceAmount = sc.nextInt();
