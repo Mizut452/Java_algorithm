@@ -30,10 +30,24 @@ public class Array {
 
 
         //1次元配列の出力
-        System.out.println(Arrays.toString(intArray));
+        System.out.println("1次元配列の出力：" + Arrays.toString(intArray));
+        //1次元配列の要素を1つずつ出力する
+        for(int index : intArray) {
+            System.out.println("1次元配列の要素：" + index);
+        }
         //2次元配列の出力
-        System.out.println(Arrays.deepToString(strArray));
+        System.out.println("2次元配列の出力" + Arrays.deepToString(strArray));
 
+        //1次元配列のランダムアクセス
         System.out.println(intArray[1]);
+
+        //2次元配列のランダムアクセス
+        System.out.println("セレッソの9番は" + strArray[1][2]);
+
+        for (int i = 0; i < strArray.length; i++) {
+            for (int j = 0; j < strArray.length; j++) {
+                System.out.println(strArray[i][j]);
+            }
+        }
     }
 }
