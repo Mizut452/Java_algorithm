@@ -49,5 +49,11 @@ public class Array {
                 System.out.println(strArray[i][j]);
             }
         }
+
+        for (String[] word : strArray) {
+            for(String wotd : word) {
+                System.out.println("拡張" + wotd);
+            }
+        }
     }
 }
