@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class ReposeGround {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int constructX = 20;
         int constructY = 10;
         int noiseSize =  10;
@@ -17,7 +16,7 @@ public class ReposeGround {
             double yLength = Math.pow(treeY - constructY, 2);
             double noisePow = Math.pow(noiseSize, 2);
 
-            if((int) xLength + (int) yLength > noisePow) {
+            if((int) xLength + (int) yLength >= noisePow) {
                 System.out.println("silent");
             } else {
                 System.out.println("noisy");
