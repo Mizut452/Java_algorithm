@@ -1,4 +1,4 @@
-package Algorythm.FirstAndFirst;
+package Algorythm.FirstAndFirst.SearchProgram;
 
 import java.util.Scanner;
 
