@@ -14,6 +14,7 @@ public class SecretWords {
             for (int j = 0; j < inputWord.length(); j++) {
                 if(secWord == inputWord.charAt(j)) {
                     count++;
+                    break;
                 }
             }
         }
