@@ -7,6 +7,7 @@ import java.util.List;
 
 public class ArrayTest {
     public static void main(String[] args) {
+        //チーム名と選手のマッピング
         List<String> frontaleList = new ArrayList<>();
         frontaleList.add("上福元");
         frontaleList.add("大島僚太");
