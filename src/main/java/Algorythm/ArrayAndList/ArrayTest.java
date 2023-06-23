@@ -18,5 +18,8 @@ public class ArrayTest {
         HashMap<String,List<String>> teamMap = new HashMap<>();
         teamMap.put("川崎フロンターレ", frontaleList);
         System.out.println(teamMap);
+
+        frontaleList.remove(0);
+        System.out.println(teamMap);
     }
 }
