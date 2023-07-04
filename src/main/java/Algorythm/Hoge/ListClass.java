@@ -18,5 +18,9 @@ public class ListClass {
 
         List<String> studentList = new ArrayList<>();
         List<String> memberList = new LinkedList<>();
+
+        for (int i = 9; i > -1 ; i--) {
+            System.out.println(i + "だよ");
+        }
     }
 }
